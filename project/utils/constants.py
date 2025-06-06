@@ -1,0 +1,25 @@
+# utils/constants.py
+
+import pygame
+
+TOOLBAR_LEFT   = 60
+TOOLBAR_TOP    = 20
+TOOLBAR_RIGHT  = 40
+TOOLBAR_BOTTOM = 20
+
+MIN_RADIUS, MAX_RADIUS = 1, 100
+
+CANVAS_WIDTH  = 512
+CANVAS_HEIGHT = 512
+
+SCREEN_WIDTH  = TOOLBAR_LEFT + CANVAS_WIDTH + TOOLBAR_RIGHT
+SCREEN_HEIGHT = TOOLBAR_TOP + CANVAS_HEIGHT + TOOLBAR_BOTTOM
+
+COLOR_PALETTE = {
+    pygame.K_1: (9, 7, 7, 255),
+    pygame.K_2: (229, 58, 64, 255),
+    pygame.K_3: (239, 220, 5, 255),
+    pygame.K_4: (48, 169, 222, 255),
+    pygame.K_5: (246, 134, 87, 255),
+    pygame.K_6: (144, 85, 162, 255),
+}
